@@ -1,0 +1,31 @@
+main {
+  margin-top: 69px;
+  margin-bottom: 38px;
+  background: linear-gradient(90deg, rgba(43,28,66,1) 0%, rgba(9,5,9,1) 50%, rgba(43,28,66,1) 100%);
+  height: calc(100vh - 69px - 38px);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+main::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+main::-webkit-scrollbar:vertical {
+  width: 10px;
+}
+
+main::-webkit-scrollbar:horizontal {
+  height: 10px;
+}
+
+main::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid #31263e;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+main::-webkit-scrollbar-track { 
+  background-color: #31263e; 
+} 

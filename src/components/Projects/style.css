@@ -1,0 +1,16 @@
+#projects {
+  height: calc(100vh - 69px - 38px);
+}
+
+#projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#projects h2 {
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  padding-top: 24px;
+}
